@@ -47,10 +47,17 @@
 
 <!-- Hero -->
 <section class="batik-bg h-96 flex items-center justify-center">
-    <div class="text-center bg-white bg-opacity-90 p-8 rounded-lg max-w-2xl mx-auto">
+    <div class="text-center bg-white bg-opacity-90 p-8 rounded-lg max-w-[80%] max-h-64 overflow-y-auto mx-auto">
         <h1 class="text-4xl font-bold text-gray-900 mb-4">Selamat Datang di Rumah Inklusif</h1>
-        <p class="text-xl text-gray-700 mb-6">Membangun komunitas yang berdaya dan inklusif melalui berbagai program dan kegiatan</p>
-        <button onclick="toggleModal()" class="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700">Bergabung dengan Kami</button>
+        <p class="text-xl text-gray-700 mb-6">Rumah Inklusif adalah komunitas difabel/disabilitas dan keluarganya yang memiliki tujuan terciptanya suatu masyarakat yang inklusif, yakni masyarakat yang saling menghargai, dan tidak ada diskriminasi terhadap siapapun termasuk kelompok disabilitas.</p>
+        <p class="text-xl font-bold text-gray-700 mb-6">Visi</p>
+        <p class="text-xl text-gray-700 mb-6">(Suatu saat nanti) terbangun tatanan masyarakat yang inklusif, yang menerima dan menghargai sesama, termasuk disabilitas.</p>
+        <p class="text-xl font-bold text-gray-700 mb-6">Misi</p>
+        <p class="text-xl text-gray-700 mb-6">Untuk mencapai visi itu, kami akan melakukan:</p>
+        <p class="text-xl text-gray-700 mb-6">1. Pengembangan SDM</p>
+        <p class="text-xl text-gray-700 mb-6">2. Membangun komunitas pendidikan inklusif</p>
+        <p class="text-xl text-gray-700 mb-6">3. Pengembangan ekonomi komunitas dan keluarga</p>
+        
     </div>
 </section>
 
