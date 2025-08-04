@@ -1,0 +1,204 @@
+/* --------------------------------------
+   GLOBAL STYLE (umum seluruh website)
+-----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+img:hover {
+    transform: scale(1.02);
+}
+
+/* Navigasi */
+.nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #4f46e5;
+    transition: width 0.3s ease;
+}
+.nav-link:hover {
+    color: #4f46e5;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Efek hover umum kartu */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Ikon wrapper bulat */
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+    background-color: #EEF2FF;
+    color: #4F46E5;
+}
+
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* --------------------------------------
+   FORM LOGIN
+-----------------------------------------*/
+#loginForm select,
+#loginForm input[type="email"],
+#loginForm input[type="password"],
+#loginForm button {
+    transition: all 0.2s ease-in-out;
+}
+
+#loginForm input:focus,
+#loginForm select:focus {
+    border-color: #6366f1;
+    outline: none;
+    box-shadow: 0 0 0 1px #6366f1;
+}
+
+#loginForm button:hover {
+    background-color: #4f46e5;
+}
+
+/* --------------------------------------
+   HALAMAN BATIK (contoh background)
+-----------------------------------------*/
+.batik-bg {
+    background-image: url('https://source.unsplash.com/1600x400/?batik');
+    background-size: cover;
+    background-position: center;
+}
+
+/* --------------------------------------
+   HALAMAN KELOLA ALAM KELUARGA INKLUSIF
+-----------------------------------------*/
+.section-kelola-alam {
+    margin-bottom: 5rem;
+}
+
+.judul-section {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4F46E5;
+    margin-bottom: 1rem;
+}
+
+.deskripsi-section {
+    font-size: 1.125rem;
+    color: #4B5563;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.kontainer-program {
+    background-color: #ECFDF5;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.gambar-program {
+    width: 100%;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.judul-program {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1F2937;
+    margin-bottom: 1rem;
+}
+
+.teks-program {
+    color: #4B5563;
+    margin-bottom: 1rem;
+}
+
+.daftar-fitur {
+    list-style: none;
+    padding: 0;
+    color: #4B5563;
+}
+
+.daftar-fitur li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.icon-fitur {
+    color: #10B981;
+}
+
+/* --------------------------------------
+   EDUKASI - LIST PROGRAM KEGIATAN
+-----------------------------------------*/
+.card-edukasi {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.item-edukasi {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.item-edukasi .ikon {
+    font-size: 1.5rem;
+    margin-right: 0.75rem;
+    background-color: #D1FAE5;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.judul-edukasi {
+    font-weight: 500;
+    color: #374151;
+    font-size: 0.875rem;
+}
+
+.waktu-edukasi {
+    color: #6B7280;
+    font-size: 0.875rem;
+}
+
+/* --------------------------------------
+   KOMUNITAS / SEKOLAH KOMUNITAS (contoh)
+-----------------------------------------*/
+.program-box {
+    background-color: #eff6ff;
+    color: #1e40af;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
