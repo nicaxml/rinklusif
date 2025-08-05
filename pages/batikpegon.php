@@ -9,6 +9,26 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
+<header class="bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-6">
+        <div class="flex items-center">
+            <img src="https://placehold.co/50x50?text=RI&font=roboto" alt="Logo Rumah Inklusif" class="h-12 w-12 rounded-full">
+            <h1 class="ml-3 text-2xl font-bold text-gray-900">Rumah Inklusif</h1>
+        </div>
+        <nav class="hidden md:flex space-x-8">
+            <a href="/rinklusif-1/index.php" class="text-gray-900 nav-link">Beranda</a>
+            <a href="/rinklusif-1/pages/batikpegon.php" class="text-gray-900 nav-link">Batik Pegon</a>
+            <a href="/rinklusif-1/pages/lumbung-inklusif.php" class="text-gray-900 nav-link">Lumbung Inklusif</a>
+            <a href="/rinklusif-1/pages/kelola-alam.php" class="text-gray-900 nav-link">Kelola Alam</a>
+            <a href="/rinklusif-1/pages/inklusif-muda.php" class="text-gray-900 nav-link">Inklusif Muda</a>
+            <a href="/rinklusif-1/pages/sekolah komunitas.php" class="text-gray-900 nav-link">Sekolah Komunitas</a>
+        </nav>
+        <div class="flex items-center">
+            <button onclick="toggleModal()" class="ml-6 px-4 py-2 text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">Masuk</button>
+        </div>
+    </div>
+</header>
+
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <!-- Batik Pegon Section -->
         <section id="batik-pegon" class="mb-20">
@@ -79,6 +99,7 @@
             </div>
         </section>
     </main>
+
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white pt-12 pb-6">
