@@ -16,12 +16,12 @@
             <h1 class="ml-3 text-2xl font-bold text-gray-900">Rumah Inklusif</h1>
         </div>
         <nav class="hidden md:flex space-x-8">
-            <a href="/rinklusif-1/index.php" class="text-gray-900 nav-link">Beranda</a>
-            <a href="/rinklusif-1/pages/batikpegon.php" class="text-gray-900 nav-link">Batik Pegon</a>
-            <a href="/rinklusif-1/pages/lumbung-inklusif.php" class="text-gray-900 nav-link">Lumbung Inklusif</a>
-            <a href="/rinklusif-1/pages/kelola-alam.php" class="text-gray-900 nav-link">Kelola Alam</a>
-            <a href="/rinklusif-1/pages/inklusif-muda.php" class="text-gray-900 nav-link">Inklusif Muda</a>
-            <a href="/rinklusif-1/pages/sekolah komunitas.php" class="text-gray-900 nav-link">Sekolah Komunitas</a>
+            <a href="/rinklusif/index.php" class="text-gray-900 nav-link">Beranda</a>
+            <a href="/rinklusif/pages/batikpegon.php" class="text-gray-900 nav-link">Batik Pegon</a>
+            <a href="/rinklusif/pages/lumbung-inklusif.php" class="text-gray-900 nav-link">Lumbung Inklusif</a>
+            <a href="/rinklusif/pages/kelola-alam.php" class="text-gray-900 nav-link">Kelola Alam</a>
+            <a href="/rinklusif/pages/inklusif-muda.php" class="text-gray-900 nav-link">Inklusif Muda</a>
+            <a href="/rinklusif/pages/sekolah komunitas.php" class="text-gray-900 nav-link">Sekolah Komunitas</a>
         </nav>
         <div class="flex items-center">
             <button onclick="toggleModal()" class="ml-6 px-4 py-2 text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">Masuk</button>
@@ -29,77 +29,57 @@
     </div>
 </header>
 
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <!-- Batik Pegon Section -->
-        <section id="batik-pegon" class="mb-20">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-indigo-700 mb-4">Batik Pegon</h2>
-                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                    Program utama kami yang memadukan seni batik dengan nilai-nilai inklusi untuk membangun komunitas yang lebih berdaya.
-                </p>
-            </div>
+  <!-- MAIN CONTENT -->
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Card 1 -->
-                <div class="bg-white rounded-lg overflow-hidden shadow-md card-hover">
-                    <div class="h-48 overflow-hidden">
-                        <img src="https://placehold.co/600x400/ECE5FF/4F46E5?text=Pelatihan+Batik"
-                             alt="Peserta pelatihan batik sedang bekerja di ruang workshop dengan berbagai perlengkapan batik"
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Pelatihan Membatik</h3>
-                        <p class="text-gray-600 mb-4">
-                            Program reguler untuk mempelajari teknik membatik tradisional dengan pendekatan modern.
-                        </p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-indigo-600 font-medium">Setiap Sabtu</span>
-                            <button class="text-indigo-600 hover:text-indigo-800 font-medium">Lihat Detail</button>
-                        </div>
-                    </div>
-                </div>
+  <section>
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-indigo-700">Batik Pegon</h2>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        Salah satu kegiatan di rumah inklusif adalah membatik. Dari kegiatan ini, lahir sebuah karya batik bermotif huruf Arab Pegon, kami menyebutnya: <b><i>Batik Pegon.</b></i>
+    <p class="text-lg text-gray-600 max-w-3xl mx-auto">  
+        Batik Pegon bukan hanya batik (karya) disabilitas. Batik Pegon juga merupakan media bercerita, tentang perjuangan dan kehidupan para difabel beserta keluarganya.
+    </p>
+    </div>
 
-                <!-- Card 2 -->
-                <div class="bg-white rounded-lg overflow-hidden shadow-md card-hover">
-                    <div class="h-48 overflow-hidden">
-                        <img src="https://placehold.co/600x400/E5E7FF/4F46E5?text=Pameran+Batik"
-                             alt="Pameran karya batik peserta dengan berbagai motif dan warna di galeri seni"
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Pameran Karya</h3>
-                        <p class="text-gray-600 mb-4">
-                            Pameran karya peserta pelatihan sebagai ajang apresiasi dan promosi produk batik inklusif.
-                        </p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-indigo-600 font-medium">Bulanan</span>
-                            <button class="text-indigo-600 hover:text-indigo-800 font-medium">Lihat Detail</button>
-                        </div>
-                    </div>
-                </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-                <!-- Card 3 -->
-                <div class="bg-white rounded-lg overflow-hidden shadow-md card-hover">
-                    <div class="h-48 overflow-hidden">
-                        <img src="https://placehold.co/600x400/ECFDF5/047857?text=Diskusi+Batik"
-                             alt="Diskusi kelompok tentang nilai-nilai budaya dalam motif batik pegon"
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Diskusi Budaya</h3>
-                        <p class="text-gray-600 mb-4">
-                            Diskusi tentang filosofi dan nilai-nilai budaya yang terkandung dalam motif Batik Pegon.
-                        </p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-indigo-600 font-medium">Mingguan</span>
-                            <button class="text-indigo-600 hover:text-indigo-800 font-medium">Lihat Detail</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+      <!-- Card History -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-md card-hover">
+        <div class="h-48 overflow-hidden">
+          <img src="https://placehold.co/600x400/ECE5FF/4F46E5?text=Sejarah+Batik+Pegon" 
+               alt="Sejarah Batik Pegon" class="w-full h-full object-cover" />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Histori</h3>
+          <p class="text-gray-600 mb-4">
+            Histori Batik Pegon adalah kumpulan berbagai karya Batik Pegon yang memadukan motif batik tradisional dengan aksara Pegon, sebagai dokumentasi dan pelestarian warisan budaya.
+          </p>
+          <a href="../pages/sejarah-batik.php" class="text-indigo-600 hover:text-indigo-800 font-medium">Lihat Detail</a>
+          <!-- Kalau mau link ke halaman detail sejarah batik -->
+          <!-- <a href="../pages/sejarah-batik.php" class="text-indigo-600 hover:text-indigo-800 font-medium">Lihat Detail</a> -->
+        </div>
+      </div>
 
+      <!-- Card Kegiatan -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-md card-hover">
+        <div class="h-48 overflow-hidden">
+          <img src="https://placehold.co/600x400/E5E7FF/4F46E5?text=Kegiatan" 
+               alt="Kegiatan Batik Pegon" class="w-full h-full object-cover" />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Kegiatan</h3>
+          <p class="text-gray-600 mb-4">
+            Kegiatan berisi kumpulan acara, aktivitas, dan berita seputar Batik Pegon sebagai dokumentasi dan informasi untuk masyarakat.
+          </p>
+          <a href="../pages/kegiatan-batik.php" class="text-indigo-600 hover:text-indigo-800 font-medium">Lihat Detail</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white pt-12 pb-6">
@@ -124,10 +104,8 @@
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Hubungi Kami</h3>
                     <address class="not-italic text-sm text-gray-300">
-                        Jl. Inklusi No. 123<br>
-                        Kota Inklusif, Indonesia<br><br>
-                        Email: info@rumahinklusif.id<br>
-                        Telepon: (021) 1234 5678
+                        RT.01/RW.01, Panggel, Kembaran, kecamatan, Kabupaten Kebumen, Jawa Tengah 54312
+                        Telepon:  0819-1502-0994
                     </address>
                 </div>
                 <div>

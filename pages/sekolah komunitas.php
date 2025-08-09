@@ -17,12 +17,12 @@
             <h1 class="ml-3 text-2xl font-bold text-gray-900">Rumah Inklusif</h1>
         </div>
         <nav class="hidden md:flex space-x-8">
-            <a href="/rinklusif-1/index.php" class="text-gray-900 nav-link">Beranda</a>
-            <a href="/rinklusif-1/pages/batikpegon.php" class="text-gray-900 nav-link">Batik Pegon</a>
-            <a href="/rinklusif-1/pages/lumbung-inklusif.php" class="text-gray-900 nav-link">Lumbung Inklusif</a>
-            <a href="/rinklusif-1/pages/kelola-alam.php" class="text-gray-900 nav-link">Kelola Alam</a>
-            <a href="/rinklusif-1/pages/inklusif-muda.php" class="text-gray-900 nav-link">Inklusif Muda</a>
-            <a href="/rinklusif-1/pages/sekolah komunitas.php" class="text-gray-900 nav-link">Sekolah Komunitas</a>
+            <a href="/rinklusif/index.php" class="text-gray-900 nav-link">Beranda</a>
+            <a href="/rinklusif/pages/batikpegon.php" class="text-gray-900 nav-link">Batik Pegon</a>
+            <a href="/rinklusif/pages/lumbung-inklusif.php" class="text-gray-900 nav-link">Lumbung Inklusif</a>
+            <a href="/rinklusif/pages/kelola-alam.php" class="text-gray-900 nav-link">Kelola Alam</a>
+            <a href="/rinklusif/pages/inklusif-muda.php" class="text-gray-900 nav-link">Inklusif Muda</a>
+            <a href="/rinklusif/pages/sekolah komunitas.php" class="text-gray-900 nav-link">Sekolah Komunitas</a>
         </nav>
         <div class="flex items-center">
             <button onclick="toggleModal()" class="ml-6 px-4 py-2 text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">Masuk</button>
@@ -38,7 +38,7 @@
         <div class="text-center mb-12">
             <h2 class="text-3xl font-bold text-indigo-700 mb-4">Sekolah Komunitas Inklusif</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                Pendidikan alternatif yang ramah untuk semua dengan pendekatan komunitas.
+                <b>Sekolah Komunitas</b> adalah inisiatif pendidikan dari Rumah Inklusif yang berfokus pada pembelajaran berbasis komunitas dan potensi lokal. Sekolah ini menjadi ruang bagi anak-anak, remaja, dan warga untuk belajar bersama, mengembangkan keterampilan hidup, serta memperkuat nilai gotong royong dan inklusivitas. Melalui metode pembelajaran yang kreatif dan partisipatif, Sekolah Komunitas mendorong peserta didik untuk berpikir kritis, berkolaborasi, dan menjadi bagian aktif dalam pembangunan lingkungan sekitarnya.
             </p>
         </div>
         
@@ -100,21 +100,19 @@
             <div>
                 <h3 class="text-lg font-semibold mb-4">Program Kami</h3>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="/rinklusif-1/pages/batikpegon.php" class="text-gray-300 hover:text-white">Batik Pegon</a></li>
-                    <li><a href="/rinklusif-1/pages/lumbung-inklusif.php" class="text-gray-300 hover:text-white">Lumbung Inklusif</a></li>
-                    <li><a href="/rinklusif-1/pages/kelola-alam.php" class="text-gray-300 hover:text-white">Kelola Alam</a></li>
-                    <li><a href="/rinklusif-1/pages/inklusif-muda.php" class="text-gray-300 hover:text-white">Inklusif Muda</a></li>
-                    <li><a href="/rinklusif-1/pages/sekolah komunitas.php" class="text-gray-300 hover:text-white">Sekolah Komunitas</a></li>
+                    <li><a href="/rinklusif/pages/batikpegon.php" class="text-gray-300 hover:text-white">Batik Pegon</a></li>
+                    <li><a href="/rinklusif/pages/lumbung-inklusif.php" class="text-gray-300 hover:text-white">Lumbung Inklusif</a></li>
+                    <li><a href="/rinklusif/pages/kelola-alam.php" class="text-gray-300 hover:text-white">Kelola Alam</a></li>
+                    <li><a href="/rinklusif/pages/inklusif-muda.php" class="text-gray-300 hover:text-white">Inklusif Muda</a></li>
+                    <li><a href="/rinklusif/pages/sekolah komunitas.php" class="text-gray-300 hover:text-white">Sekolah Komunitas</a></li>
                 </ul>
             </div>
             <div>
                 <h3 class="text-lg font-semibold mb-4">Hubungi Kami</h3>
-                <address class="not-italic text-sm text-gray-300">
-                    Jl. Inklusi No. 123<br>
-                    Kota Inklusif, Indonesia<br><br>
-                    Email: info@rumahinklusif.id<br>
-                    Telepon: (021) 1234 5678
-                </address>
+                    <address class="not-italic text-sm text-gray-300">
+                        RT.01/RW.01, Panggel, Kembaran, kecamatan, Kabupaten Kebumen, Jawa Tengah 54312
+                        Telepon:  0819-1502-0994
+                    </address>
             </div>
             <div>
                 <h3 class="text-lg font-semibold mb-4">Sosial Media</h3>

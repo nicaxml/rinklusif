@@ -51,10 +51,17 @@
 
 <!-- Hero -->
 <section class="batik-bg h-96 flex items-center justify-center">
-    <div class="text-center bg-white bg-opacity-90 p-8 rounded-lg max-w-2xl mx-auto">
+    <div class="text-center bg-white bg-opacity-90 p-8 rounded-lg max-w-[80%] max-h-64 overflow-y-auto mx-auto">
         <h1 class="text-4xl font-bold text-gray-900 mb-4">Selamat Datang di Rumah Inklusif</h1>
-        <p class="text-xl text-gray-700 mb-6">Membangun komunitas yang berdaya dan inklusif melalui berbagai program dan kegiatan</p>
-        <button onclick="toggleModal()" class="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700">Bergabung dengan Kami</button>
+        <p class="text-xl text-gray-700 mb-6">Rumah Inklusif adalah komunitas difabel/disabilitas dan keluarganya yang memiliki tujuan terciptanya suatu masyarakat yang inklusif, yakni masyarakat yang saling menghargai, dan tidak ada diskriminasi terhadap siapapun termasuk kelompok disabilitas.</p>
+        <p class="text-xl font-bold text-gray-700 mb-6">Visi</p>
+        <p class="text-xl text-gray-700 mb-6">(Suatu saat nanti) terbangun tatanan masyarakat yang inklusif, yang menerima dan menghargai sesama, termasuk disabilitas.</p>
+        <p class="text-xl font-bold text-gray-700 mb-6">Misi</p>
+        <p class="text-xl text-gray-700 mb-6">Untuk mencapai visi itu, kami akan melakukan:</p>
+        <p class="text-xl text-gray-700 mb-6">1. Pengembangan SDM</p>
+        <p class="text-xl text-gray-700 mb-6">2. Membangun komunitas pendidikan inklusif</p>
+        <p class="text-xl text-gray-700 mb-6">3. Pengembangan ekonomi komunitas dan keluarga</p>
+        
     </div>
 </section>
 
@@ -72,21 +79,19 @@
             <div>
                 <h3 class="text-lg font-semibold mb-4">Program Kami</h3>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="/rinklusif-1/pages/batikpegon.php" class="text-gray-300 hover:text-white">Batik Pegon</a></li>
-                    <li><a href="/rinklusif-1/pages/lumbung-inklusif.php" class="text-gray-300 hover:text-white">Lumbung Inklusif</a></li>
-                    <li><a href="/rinklusif-1/pages/kelola-alam.php" class="text-gray-300 hover:text-white">Kelola Alam</a></li>
-                    <li><a href="/rinklusif-1/pages/inklusif-muda.php" class="text-gray-300 hover:text-white">Inklusif Muda</a></li>
-                    <li><a href="/rinklusif-1/pages/sekolah komunitas.php" class="text-gray-300 hover:text-white">Sekolah Komunitas</a></li>
+                    <li><a href="/rinklusif/pages/batikpegon.php" class="text-gray-300 hover:text-white">Batik Pegon</a></li>
+                    <li><a href="/rinklusif/pages/lumbung-inklusif.php" class="text-gray-300 hover:text-white">Lumbung Inklusif</a></li>
+                    <li><a href="/rinklusif/pages/kelola-alam.php" class="text-gray-300 hover:text-white">Kelola Alam</a></li>
+                    <li><a href="/rinklusif/pages/inklusif-muda.php" class="text-gray-300 hover:text-white">Inklusif Muda</a></li>
+                    <li><a href="/rinklusif/pages/sekolah komunitas.php" class="text-gray-300 hover:text-white">Sekolah Komunitas</a></li>
                 </ul>
             </div>
             <div>
                 <h3 class="text-lg font-semibold mb-4">Hubungi Kami</h3>
-                <address class="not-italic text-sm text-gray-300">
-                    Jl. Inklusi No. 123<br>
-                    Kota Inklusif, Indonesia<br><br>
-                    Email: info@rumahinklusif.id<br>
-                    Telepon: (021) 1234 5678
-                </address>
+                    <address class="not-italic text-sm text-gray-300">
+                        RT.01/RW.01, Panggel, Kembaran, kecamatan, Kabupaten Kebumen, Jawa Tengah 54312
+                        Telepon:  0819-1502-0994
+                    </address>
             </div>
             <div>
                 <h3 class="text-lg font-semibold mb-4">Sosial Media</h3>
