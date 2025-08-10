@@ -28,7 +28,6 @@
 
 
         <div class="flex items-center">
-            <button onclick="toggleModal()" class="ml-6 px-4 py-2 text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">Masuk</button>
         </div>
         <button id="mobileMenuButton" class="md:hidden text-gray-500 hover:text-gray-900">
             <!-- Menu Icon -->
@@ -93,27 +92,26 @@
                     <a 
                         href="https://www.google.com/maps?q=RT.01/RW.01,+Panggel,+Kembaran,+Kebumen,+Jawa+Tengah+54312" 
                         target="_blank" 
-                        class="flex items-center space-x-2 hover:text-blue-400 transition-colors"
-                    >
-                        <!-- Ikon Lokasi -->
+                        class="flex items-center space-x-2 hover:text-blue-400 transition-colors">
+
+                    <!-- Ikon Lokasi -->
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z" />
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2c4.418 0 8 3.582 8 8 0 5.25-8 12-8 12S4 15.25 4 10c0-4.418 3.582-8 8-8z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2c4.418 0 8 3.582 8 8 0 5.25-8 12-8 12S4 15.25 4 10c0-4.418 3.582-8 8-8z" />
                         </svg>
                         <span>RT.01/RW.01, Panggel, Kembaran, Kabupaten Kebumen, Jawa Tengah 54312</span>
                     </a>
 
-                    <!-- Telepon -->
-                    <a 
-                        href="tel:+6281915020994" 
-                        class="flex items-center space-x-2 hover:text-blue-400 transition-colors"
-                    >
-                        <!-- Ikon Telepon -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.07 3.21a1 1 0 01-.272 1.02l-2.12 2.12a16 16 0 006.364 6.364l2.12-2.12a1 1 0 011.02-.272l3.21 1.07a1 1 0 01.684.948V19a2 2 0 01-2 2h-1c-9.389 0-17-7.611-17-17V5z" />
-                        </svg>
-                        <span>0819-1502-0994</span>
-                    </a>
+                    <!-- Ikon WhatsApp -->
+                        <a href="https://wa.me/62895383045895" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="flex items-center space-x-2 text-gray-300 hover:text-green-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.52 3.48A11.91 11.91 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.17 1.59 5.99L0 24l6.18-1.62A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.21-3.48-8.52zM12 21.82a9.82 9.82 0 0 1-5-1.36l-.36-.21-3.67.96.98-3.58-.23-.37A9.86 9.86 0 0 1 2.18 12c0-5.41 4.41-9.82 9.82-9.82 2.63 0 5.1 1.02 6.96 2.88A9.81 9.81 0 0 1 21.82 12c0 5.41-4.41 9.82-9.82 9.82zm5.54-7.4c-.3-.15-1.77-.87-2.05-.97s-.47-.15-.67.15c-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07a8.02 8.02 0 0 1-4.21-3.69c-.32-.55.32-.51.9-1.7.1-.2.05-.37-.02-.52s-.67-1.62-.91-2.22c-.24-.57-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49 0 1.47 1.06 2.89 1.21 3.09.15.2 2.08 3.18 5.05 4.46.7.3 1.25.47 1.68.6.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/>
+                            </svg>
+                            <span>0895-3830-45895</span>
+                        </a>
                 </address>
             </div>
             <div>
